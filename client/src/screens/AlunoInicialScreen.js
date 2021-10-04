@@ -7,7 +7,7 @@ export function AlunoInicialScreen() {
   const [aulas, setAulas] = useState([
     {
       id: "1",
-      nome: "Aula 10 - Variáveis"
+      nome: "Aula 10 - Variáveis".
     },
     {
       id: "2",
