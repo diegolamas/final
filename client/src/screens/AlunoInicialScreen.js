@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { render } from 'react-dom';
 import { View, Text, TouchableOpacity, StyleSheet, Image, FlatList } from 'react-native';
+import imagemCoruja from "../../assets/coruja.png"
 
 export function AlunoInicialScreen() {
   const [aulas, setAulas] = useState([
@@ -65,7 +66,7 @@ export function AlunoInicialScreen() {
   return (
     <>
       <View style={styles.container}>
-        <Image style={styles.imagemCoruja} source={require('./coruja.png')} />
+        <Image style={styles.imagemCoruja} source={imagemCoruja} />
       </View>
 
       <View style={styles.container2}>
